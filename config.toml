@@ -66,10 +66,6 @@ theme = "cayman-hugo-theme"
     url = "/post/"
     weight = 2
   [[menu.nav]]
-    name = "Projects"
-    url = "/posts/"
-    weight = 3
-  [[menu.nav]]
     name = "Tags"
     url = "/tags/"
     weight = 4

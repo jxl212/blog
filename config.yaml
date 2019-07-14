@@ -62,9 +62,6 @@ menu:
     - name: Blog
       url: /post/
       weight: 2
-    - name: Projects
-      url: /posts/
-      weight: 3
     - name: Tags
       url: /tags/
       weight: 4
