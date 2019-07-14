@@ -1,4 +1,4 @@
-baseURL = "https://jxl212.github.io"
+baseURL = "https://jxl212.github.io/blog"
 languageCode = "en-us"
 title = "tail -f jxl212/.*"
 theme = "cayman"
