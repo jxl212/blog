@@ -1,0 +1,6 @@
+baseURL = "https://jxl212.github.io"
+languageCode = "en-us"
+title = "tail -f jxl212/.*"
+theme = "cayman"
+publishDir = "docs"
+
