@@ -2,7 +2,7 @@ baseURL: https://jxl212.github.io
 languageCode: en-us
 defaultContentLanguage: en
 title: Main Page
-theme: cayman
+theme: cayman-hugo-theme
 
 
 # Syntax highlighting
