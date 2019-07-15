@@ -7,9 +7,6 @@ COLOR_END='\033[0m'
 msg="Deploying updates to GitHub..."
 echo -e "${COLOR_START}$msg${COLOR_END}"
 
-# update submodulea
-git submodule update --remote --merge
-
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
