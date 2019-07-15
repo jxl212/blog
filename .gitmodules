@@ -3,5 +3,5 @@
 	url = https://github.com/budparr/gohugo-theme-ananke.git
 [submodule "public"]
 	path = public
-	url = https://github.com/jxl212/jxl212.github.io.git
+	url = git@github.com:jxl212/jxl212.github.io.git
 	branch = master
