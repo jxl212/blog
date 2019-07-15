@@ -9,7 +9,7 @@ echo -e "${COLOR_START}$msg${COLOR_END}"
 
 
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -t cayman-hugo-theme # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
