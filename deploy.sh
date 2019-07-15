@@ -1,6 +1,11 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+COLOR_START='\033[0;32m'
+COLOR_START_2='\033[0;31m'
+COLOR_END='\033[0m'
+
+msg="Deploying updates to GitHub..."
+echo -e "${COLOR_START}$msg${COLOR_END}"
 
 # update submodulea
 git submodule update --remote --merge
@@ -26,3 +31,7 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+
+msg="done"
+echo -e "${COLOR_START}$msg${COLOR_END}"
