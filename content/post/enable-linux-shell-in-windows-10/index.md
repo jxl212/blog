@@ -8,7 +8,7 @@ tags: [windows 10, linux shell]
 * Run PowerShell as administrator and run:
 `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 (Use Y or press enter when prompted to confirm)
-* reboot...
+* reboot
 
 ## Step 2: Download a Linux system from Windows store
 * Search for Linux in Windows 10 Store
