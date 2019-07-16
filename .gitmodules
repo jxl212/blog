@@ -1,4 +1,4 @@
 [submodule "public"]
-	path = public
+	path = jxl212.github.io
 	url = git@github.com:jxl212/jxl212.github.io.git
 	branch = master
