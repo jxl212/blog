@@ -5,9 +5,12 @@ tags: [windows 10, linux shell]
 ---
 
 ## Step 1: Enable Windows subsytem for Linux
-* Run PowerShell as administrator and run:
-`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-(Use Y or press enter when prompted to confirm)
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+* Open PowerShell as administrator
+* run the above script
+* Use Y or press enter when prompted to confirm
 * reboot
 
 ## Step 2: Download a Linux system from Windows store
@@ -18,4 +21,4 @@ tags: [windows 10, linux shell]
 ## Step 3: Launch Unbuntu (from you start menu)
 * after initialising, it will ask for unix username and password
 
-## enjoy your Linux subsystem
+**enjoy your Linux subsystem**

@@ -1,4 +1,4 @@
-baseURL = "https://jxl212.github.io"
+baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Main Page"
@@ -19,8 +19,8 @@ theme = "cayman-hugo-theme"
 
 [params]
   # Header text, can be markdown
-  project_name = "My Homepage"
-  project_tagline = "tail -f jxl212/.*"
+  project_name = "tail -f jxl212/.*"
+  project_tagline = " "
 
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
@@ -49,7 +49,7 @@ theme = "cayman-hugo-theme"
 
   # Code colors
   code_background_color = "#f3f6fa"
-  code_text_color = "#567482"
+  code_text_color = "black"
 
   # Border colors
   border_color = "#dce6f0"
