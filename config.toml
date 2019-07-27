@@ -56,6 +56,16 @@ theme = "cayman-hugo-theme"
   table_border_color = "#e9ebec"
   hr_border_color = "#eff0f1"
 
+  favicon = "/images/favicon.ico"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/jxl212"
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+
 [menu]
   [[menu.nav]]
     name = "Home"
