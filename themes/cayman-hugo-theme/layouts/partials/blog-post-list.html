@@ -1,4 +1,5 @@
 <h1>{{ .Title }}</h1>
+
 <ul>
 {{ range where .Pages.ByPublishDate.Reverse "Section" "post" }}
   <li>
@@ -7,6 +8,8 @@
     <a href="{{ .Permalink }}">
       {{ .Title }}
     </a>
-  </li>        
+  </li>
+
 {{ end }}
 </ul>
+
